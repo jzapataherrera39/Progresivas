@@ -1,56 +1,51 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
+    
 
     <v-main>
-      <HelloWorld/>
+      <br>
+    
+      <h1 class="title"><span style="font-size: 58px;">APLICACIONES WEB</span> </h1>
+      <h3 class="subtitle">PROGRESIVAS</h3>
+      <br>
+
+      <div class="img">
+     <v-img
+      src="../models/img//logo.png"
+      max-width="300" 
+      max-height="300"
+      
+    >
+        </v-img>
+        </div>
+   
+   
+  
+<div class="icon">
+      <v-btn
+              y-large
+              color="primary"
+              large="15"
+              elevation="0"
+              fab
+            >
+              <v-icon color="white">mdi-chevron-right</v-icon>
+            </v-btn>
+            </div>
+            
+           
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    
   },
 
   data: () => ({
@@ -58,3 +53,54 @@ export default {
   }),
 };
 </script>
+
+<style>
+
+
+#app {
+  background: url('../models/img/background.png') no-repeat center center fixed !important;
+  background-size: cover;
+  
+}
+
+.title {
+  color:  rgb(0, 0, 0);
+position: relative;
+  bottom: -350px;
+   right: -450px;
+
+
+}
+
+.subtitle {
+  color:  rgb(0, 0, 0);
+position: relative;
+bottom: -350px;
+   right: -540px;
+   font-size: 55px;
+  
+
+}
+
+body{
+  margin: 0; 
+  padding: 0;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+    align-content: right;
+    align-items: right;
+    padding-left: 85%;
+    
+}
+.img{
+position: relative;
+  bottom: 120px;
+   right: -540px;
+
+    }
+
+</style>
