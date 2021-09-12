@@ -1,18 +1,16 @@
 <template>
     <div>
 
-            <h1>Actividades</h1>
+        Contenidos:
     </div>
-
-
-
 </template>
+
 
 <script>
 
 
 export default {
-  name: 'NuevoC',
+  name: 'Contenido',
 
   components: {
     

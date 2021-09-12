@@ -1,37 +1,10 @@
 <template>
-<div>
-<v-tabs
-      v-model="tab"
-      background-color="deep-purple accent-4"
-      centered
-      dark
-      icons-and-text
-    >
-      <v-tabs-slider></v-tabs-slider>
+  <v-app>
 
-      <v-tab :to="{ name: 'Contenido' }">
-        Contenido
-        <v-icon>mdi-book-open-variant</v-icon>
-      </v-tab>
+    <router-view> 
 
-      <v-tab :to="{ name: 'NuevoC' }">
-        Actividades
-        <v-icon>mdi-heart</v-icon>
-      </v-tab>
-
-      <v-tab :to="{ name: 'Evaluacion' }">
-        Evaluación
-        <v-icon>mdi-account-box</v-icon>
-      </v-tab>
-      <v-tab :to="{ name: 'Creditos' }">
-        Créditos
-        <v-icon>mdi-account-details</v-icon>
-      </v-tab>
-    </v-tabs>
-<v-main>
-      <router-view> </router-view>
-      </v-main>
-      </div>
+    </router-view>
+  </v-app>
 </template>
 <script>
 
