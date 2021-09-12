@@ -12,11 +12,10 @@
         <div class="usuario1" />
         <div class="descripcion">
           <div class="title_name">
-            <h3>JORGE ANDRES ZAPATA HERRERA</h3>
+            <h3>ANGIE ROJAS</h3>
           </div>
           <div class="parrafo_name">
-            <p>Programador/Diseñador/Investigador<br>
-              Tester/Ciclista/Sprinter/Tec.Sistemas</p>
+            <p>Programadora/investigadora</p>
           </div>
         </div>
       </v-row>
@@ -25,51 +24,13 @@
         <div class="usuario2" />
         <div class="descripcion">
           <div class="title_name">
-            <h3>YULIANA DIAZ</h3>
+            <h3>NINI JOHANA</h3>
           </div>
           <div class="parrafo_name">
-            <p>Investigadora</p>
+            <p>Programadora/investigadora</p>
           </div>
         </div>
       </v-row>
-
-      <v-row class="box-card" justify="center">
-        <div class="usuario3" />
-        <div class="descripcion">
-          <div class="title_name">
-            <h3>MARIO SANTIAGO PEREZ VERGARA</h3>
-          </div>
-          <div class="parrafo_name">
-            <p>Investigador</p>
-          </div>
-        </div>
-      </v-row>
-
-      <v-row class="box-card" justify="center">
-        <div class="usuario4" />
-        <div class="descripcion">
-          <div class="title_name">
-            <h3>MARIA JOSE PADILLA DUSSAN</h3>
-          </div>
-          <div class="parrafo_name">
-            <p> Investigadora</p>
-          </div>
-        </div>
-      </v-row>
-
-      <v-row class="box-card" justify="center">
-        <div class="usuario5" />
-        <div class="descripcion">
-          <div class="title_name">
-            <h3>MATTHEW ESPITIA RAMOS</h3>
-          </div>
-          <div class="parrafo_name">
-            <p>Investigador</p>
-          </div>
-        </div>
-      </v-row>
-    </v-card>
-    </v-col>
 
     <v-col>
     <v-card class="py-1 mx-auto" rounded max-width="480" elevation="5">
