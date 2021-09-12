@@ -5,6 +5,7 @@
           <div>
             <video controls width="80%">
               <source src="../assets/multimedia/1.mp4" type="video/mp4">
+              
             </video>
           </div>
          </v-col>
