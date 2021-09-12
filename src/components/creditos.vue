@@ -41,6 +41,11 @@
   </v-card>
   <br>
   <br>
+  <br>
+   <v-card
+    class="mx-auto"
+    max-width="344"
+  >
       <v-img
       src="../../models/img/aly.jpeg"
       height="100px"
@@ -53,6 +58,7 @@
     <v-card-subtitle>
      Docente
     </v-card-subtitle>
+    </v-card>
   </div>
 
 
