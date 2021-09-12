@@ -25,7 +25,7 @@
 
       <v-tab :to="{ name: 'Evaluacion' }">
         Evaluación
-        <v-icon>mdi-account-box</v-icon>
+        <v-icon>mdi-clipboard-text</v-icon>
       </v-tab>
       <v-tab :to="{ name: 'Creditos' }">
         Créditos
