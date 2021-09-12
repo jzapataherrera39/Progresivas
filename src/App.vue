@@ -1,22 +1,26 @@
 <template>
 <div>
 <v-tabs
-      v-model="tab"
-      background-color="deep-purple accent-4"
+     
+      background-color="blue"
       centered
-      dark
+      light
       icons-and-text
     >
       <v-tabs-slider></v-tabs-slider>
+
+    <v-tab :to="{ name: 'Inicio' }">
+        <v-icon>mdi-home-circle</v-icon>
+      </v-tab>
 
       <v-tab :to="{ name: 'Contenido' }">
         Contenido
         <v-icon>mdi-book-open-variant</v-icon>
       </v-tab>
-
+    
       <v-tab :to="{ name: 'NuevoC' }">
         Actividades
-        <v-icon>mdi-heart</v-icon>
+        <v-icon>mdi-bookmark-multiple</v-icon>
       </v-tab>
 
       <v-tab :to="{ name: 'Evaluacion' }">
@@ -29,9 +33,13 @@
       </v-tab>
     </v-tabs>
 <v-main>
+  <transition name="slide-fade">
       <router-view> </router-view>
+      </transition>
       </v-main>
+      
       </div>
+      
 </template>
 <script>
 
@@ -102,5 +110,16 @@ position: relative;
   align-items: left;
   align-self: left;
  
+}
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
 }
 </style>

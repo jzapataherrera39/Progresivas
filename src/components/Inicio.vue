@@ -2,6 +2,9 @@
   <v-app>
     
     <v-main>
+     
+      
+      
       <br>
     
       <h1 class="title"><span style="font-size: 58px;">APLICACIONES WEB</span> </h1>
@@ -17,25 +20,6 @@
     >
         </v-img>
         </div>
-   
-   
-  
-<div class="icon">
-  
-   <router-link to="/siguiente">
-
-      <v-btn
-              y-large
-              color="primary"
-              large="15"
-              elevation="0"
-              fab
-            >
-              <v-icon color="white">mdi-chevron-right</v-icon>
-            </v-btn>
-   </router-link>
-            </div>
-            
            
     </v-main>
   </v-app>
