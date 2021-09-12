@@ -13,21 +13,21 @@
         <v-icon>mdi-home-circle</v-icon>
       </v-tab>
 
-      <v-tab :to="{ name: 'Contenido' }">
+      <v-tab :to="{ name: 'contenido' }">
         Contenido
         <v-icon>mdi-book-open-variant</v-icon>
       </v-tab>
     
-      <v-tab :to="{ name: 'NuevoC' }">
+      <v-tab :to="{ name: 'actividades' }">
         Actividades
         <v-icon>mdi-bookmark-multiple</v-icon>
       </v-tab>
 
-      <v-tab :to="{ name: 'Evaluacion' }">
+      <v-tab :to="{ name: 'evaluacion' }">
         Evaluación
         <v-icon>mdi-clipboard-text</v-icon>
       </v-tab>
-      <v-tab :to="{ name: 'Creditos' }">
+      <v-tab :to="{ name: 'creditos' }">
         Créditos
         <v-icon>mdi-account-details</v-icon>
       </v-tab>
