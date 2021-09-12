@@ -10,23 +10,23 @@ const routes = [
   },
   {
     path: "/siguiente",
-    name: "NuevoC",
-    component: () => import('../views/ComponenteNuevo.vue')
+    name: "actividades",
+    component: () => import('../components/Inicio.vue')
   },
   {
     path: "/contenido",
-    name: "Contenido",
-    component: () => import("../views/contenido.vue")
+    name: "contenido",
+    component: () => import("../components/contenido.vue")
   },
   {
     path: "/evaluacion",
-    name: "Evaluacion",
-    component: () => import("../views/evaluacion.vue")
+    name: "evaluacion",
+    component: () => import("../components/evaluacion.vue")
   },
   {
     path: "/creditos",
-    name: "Creditos",
-    component: () => import("../views/credito.vue")
+    name: "creditos",
+    component: () => import("../components/creditos.vue")
   }
 ]
 
